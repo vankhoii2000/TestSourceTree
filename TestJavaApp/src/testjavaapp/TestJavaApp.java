@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package testjavaapp;
+
 import java.util.Scanner;
+
 /**
  *
  * @author huynh
@@ -16,9 +18,9 @@ public class TestJavaApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int num1 , num2, sum;
+        int num1, num2, sum;
         Scanner sc = new Scanner(System.in);
-        
+
 //        System.out.print("Enter num 1: ");
 //        num1 = sc.nextInt();
 //        
@@ -30,21 +32,48 @@ public class TestJavaApp {
 //        sum = num1 + num2;
 //        
 //        System.out.println("Sum num 1 & num 2 = " + sum);
-    
-        int checkNumber;
-        
-        System.out.print("Enter number: ");
-        
-        checkNumber = sc.nextInt();
-        
-        if (checkNumber % 2 == 0){
-            System.out.printf("Number %d is even", checkNumber);
-        }
-        else{
-            System.out.printf("Number %d is odd", checkNumber);
-        }
+//        int checkNumber;
+//        
+//        System.out.print("Enter number: ");
+//        
+//        checkNumber = sc.nextInt();
+//        sc.close();
+//
+//        if (checkNumber % 2 == 0){
+//            System.out.printf("Number %d is even", checkNumber);
+//        }
+//        else{
+//            System.out.printf("Number %d is odd", checkNumber);
+//        }
+//        int year;
+//        boolean isLeap = false;
+//
+//        System.out.print("Enter year: ");
+//        year = sc.nextInt();
+//
+//        if (year % 4 == 0) {
+//            if (year % 100 == 0) {
+//                if (year % 400 == 0) {
+//                    isLeap = true;
+//                } else {
+//                    isLeap = false;
+//                }
+//            } else {
+//                isLeap = true;
+//            }
+//        } else {
+//            isLeap = false;
+//        }
+//
+//        if (isLeap == true) {
+//            System.out.printf("%d is Leap year", year);
+//        } else {
+//            System.out.printf("%d is not Leap year", year);
+//        }
 
         
+        
+        
     }
-    
+
 }
