@@ -23,7 +23,6 @@ public class TestJavaApp {
         
         System.out.printf("c = %.2f" ,c);
         
-        
         System.out.println("Hello world!");
     }
     
