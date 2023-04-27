@@ -70,8 +70,43 @@ public class TestJavaApp {
 //        } else {
 //            System.out.printf("%d is not Leap year", year);
 //        }
-
-        
+          boolean laNguyenam = false;
+          
+          System.out.print("Nhap ky tu kiem tra: ");
+          
+          char ch = sc.next().charAt(0);
+          
+          sc.close();
+          
+          switch(ch)
+          {
+              case 'a':
+              case 'e':
+              case 'i':
+              case 'o': 
+              case 'u':
+              case 'A':
+              case 'E':
+              case 'I':
+              case 'O':
+              case 'U': laNguyenam = true;
+          }
+          
+          if(laNguyenam == true){
+              System.out.printf(" %c la nguyen am", ch);
+              System.out.println("");
+          }
+          else{
+              if ((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z')){
+                  System.out.printf("%c la nguyen am", ch);
+                  System.out.println("");
+              }
+              else{
+                  System.out.printf("%c khong thuoc bang chu cai", ch);
+                  System.out.println("");
+              }
+          }
+          
         
         
     }
