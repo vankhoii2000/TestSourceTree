@@ -16,15 +16,7 @@ public class TestJavaApp {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int a = 5;
-        float b = 6.5f;
-        float c ;
-        c = a + b;
-        
-        System.out.printf("c = %.2f" ,c);
-        
-        
-        System.out.println("Hello world!");
+
     }
     
 }
