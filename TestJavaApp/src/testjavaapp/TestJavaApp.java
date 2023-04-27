@@ -21,7 +21,10 @@ public class TestJavaApp {
         float c ;
         c = a + b;
         
-        System.out.printf("c = %.2f" ,c); 
+        System.out.printf("c = %.2f" ,c);
+        
+        
+        System.out.println("Hello world!");
     }
     
 }
